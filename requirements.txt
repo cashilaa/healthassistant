@@ -3,5 +3,4 @@ python-dotenv
 gunicorn
 aijson-meta
 markdown
-gunicorn
 gevent
