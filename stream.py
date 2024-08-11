@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 import asyncio
 from aijson import Flow
 from dotenv import load_dotenv
+from werkzeug.urls import quote
 
 load_dotenv()
 
