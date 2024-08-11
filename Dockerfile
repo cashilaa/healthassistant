@@ -24,4 +24,4 @@ COPY . /app/
 EXPOSE 8000
 
 # Define the command to run the app using gunicorn with the gevent worker class
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--worker-class", "gevent", "app:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--worker-class", "gevent", "app:stream"]
